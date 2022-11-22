@@ -21,6 +21,7 @@ def project(seq):
     plt.plot(final_output)
     plt.xlabel("Genome position")
     plt.ylabel("GC-content(%)")
+    plt.savefig("output.jpg")
     plt.show()
 
 
