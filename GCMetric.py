@@ -12,6 +12,7 @@ def ratio(seq):
         return (count_c+count_g)/total * 100
 
 # plotting the ratio
+
 def project(seq):
     for i in range(len(seq)):
         s = seq[i:i+100]
